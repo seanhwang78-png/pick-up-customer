@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback } from "react";
 
 const SHEET_ID = "1i5ssylMyIHv-lMr38y_jk4jP0j--DqI4bG2ge1MgIWQ";
 
