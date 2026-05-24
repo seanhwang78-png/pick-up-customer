@@ -29,9 +29,9 @@ async function loadSheetData() {
     l.split("\t").map(v => v.replace(/^"|"$/g, "").trim())
   );
 
-  const nameRow = lines[2] || [];
-  const phoneRow = lines[3] || [];
-  const infoRow = lines[1] || [];
+  const nameRow = lines[1] || [];
+  const phoneRow = lines[2] || [];
+  const infoRow = lines[0] || [];
 
   const today = new Date();
   today.setHours(0, 0, 0, 0);
